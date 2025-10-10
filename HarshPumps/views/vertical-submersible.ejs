@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical Submersible Series - Harsh Pumps</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <style>
+        .series-flex{
+            display:flex;
+            flex-wrap:wrap;
+            justify-content:center;
+            gap:6rem;
+        }
+        .series-group{
+            flex:1 1 100%;
+            max-width:100%;    
+        }
+        .series-container{
+            display:flex;
+            flex-wrap:wrap;
+            gap:1.5rem;
+            justify-content:center;
+        }
+        .series-card{
+            width:100%;
+            max-width:900px;
+            flex:1 1 800px;
+            margin:0 auto;
+        }
+    </style>
+    <script>
+        function toggleDetails(id){
+            const el=document.getElementById(id)
+            el.classList.toggle('hidden')
+        }
+    </script>
+</head>
+<body class="bg-gradient-to-br from-blue-50 to-white text-gray-800">
+    <header class="bg-white shadow sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <img src="/images/harsh_pump_logo3.jpg" alt="Logo" class="h-15 w-auto">
+            <nav class="space-x-6 hidden md:flex items-center">
+                <a href="/" class="text-gray-700 hover:text-blue-600 font-bold">Home</a>
+                <a href="/about-us" class="text-gray-700 hover:text-blue-600 font-bold">About Us</a>
+                <div class="relative group">
+                    <button class="text-gray-700 hover:text-blue-600 font-bold focus:outline-none">Products</button>
+                    <div class="absolute left-0 mt-2 w-64 bg-white border rounded shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <a href="/products/self-priming" class="block px-4 py-2 hover:bg-blue-50">Self Priming Pumps</a>
+                        <a href="/products/horizontal-submersible" class="block px-4 py-2 hover:bg-blue-50">Horizontal Submersible Pumps</a>
+                        <a href="/products/vertical-submersible" class="block px-4 py-2 hover:bg-blue-50">Vertical Submersible Pumps</a>
+                        <a href="/products/pressure" class="block px-4 py-2 hover:bg-blue-50">Pressure Pump</a>
+                        <a href="/products/centrifugal" class="block px-4 py-2 hover:bg-blue-50">Centrifugal Pump</a>
+                        <a href="products/sewage" class="block px-4 py-2 hover:bg-blue-50">Sewage Pump</a>
+                        <a href="/products/bare" class="block px-4 py-2 hover:bg-blue-50">Bare Pump</a>
+                    </div>
+                </div>
+                <a href="#" class="text-gray-700 hover:text-blue-600 font-bold">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+    <main class="py-20 px-6 md:px-16">
+        <h1 class="text-4xl md:text-5xl font-bold text-center text-blue-900 mb-18">Vertical Submersible Pumps</h1>
+        <section class="space-y-16">
+            <div class="series-flex">
+                <div class="series-group">
+                    <div class="series-container">
+                        <div class="bg-white p-4 rounded shadow series-card">
+                            <div class="swiper mmb-slider w-full h-96 rounded overflow-hidden">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="/images/verticalsubmersible_v4.png" alt="V4" class="w-full h-96 object-contain rounded"></div>
+                                </div>  
+                                <div class="swiper-pagination"></div>
+                            </div>
+                                <div class="swiper mmb-slider mt-4">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><h3 class="text-lg font-semibold text-blue-700">V4</h3></div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <div class="text center mt-24">
+            <button onclick="document.getElementById('appPopup').classList.remove('hidden')" class="text-blue-700 underline font-semibold hover:text-blue-900 transition">View More Details</button>
+        </div>
+        <div id="appPopup" class="fixed inset-0 bg-gray-300 bg-opacity-70 flex items-center justify-center z-50 hidden">
+            <div class="bg-white rounded-lg shadow-lg max-w-xl w-full p-4 relative">
+                <div class="flex justify-between items-center mb-4">
+                    <button onclick="document.getElementById('appPopup').classList.add('hidden')" class="text-blue-600 font-medium hover:text-blue-800">Exit</button>
+                </div>
+                <div class="w-full h-auto">
+                    <img src="/images/selfpriming_details.png" alt="More Details" class="w-full h-auto rounded border border-gray-600">
+                </div>
+            </div>
+        </div>
+        <section class="mt-36">
+            <h2 class="text-4xl font-bold text-center text-blue-900 mb-16">Applications</h2>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-x-10 gap-y-12 max-w-7xl mx-auto px-6">
+                <div class="flex flex-col items-center">
+                    <img src="/images/application_argiculture.jpg" alt="Agriculture" class="w-36 h-36 object-cover rounded-full shadow-lg">
+                    <p class="text-base text-gray-700 mt-4 text-center font-medium">Agricultural & Irrigation Purposes</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="/images/application_residential.jpg" alt="Residential" class="w-36 h-36 object-cover rounded-full shadow-lg">
+                    <p class="text-base text-gray-700 mt-4 text-center font-medium">Residential & Domestic Purposes</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="/images/application_hotel.jpg" alt="Hotel" class="w-36 h-36 object-cover rounded-full shadow-lg">
+                    <p class="text-base text-gray-700 mt-4 text-center font-medium">Hotels & Restaurants</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="/images/application_commercial.jpg" alt="Commercial" class="w-36 h-36 object-cover rounded-full shadow-lg">
+                    <p class="text-base text-gray-700 mt-4 text-center font-medium">Commercial Spaces & Shopes</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="/images/application_commontank.jpg" alt="Common Tank" class="w-36 h-36 object-cover rounded-full shadow-lg">
+                    <p class="text-base text-gray-700 mt-4 text-center font-medium">Water Supply From A Common Tank</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="/images/application_construction.jpg" alt="Construction" class="w-36 h-36 object-cover rounded-full shadow-lg">
+                    <p class="text-base text-gray-700 mt-4 text-center font-medium">Construction & Industrial Purposes</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-gray-800 text-gray-300 py-12">
+        <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-3 gap-8">
+            <div>
+                <h4 class="font-bold mb-4 text-white">Contact</h4>
+                <p>Harsh Pump<br/>E-141, Sanand GIDC -2, Chharodi, Gujarat 382110</p>
+                <p>Phone: +91-9327009418</p>
+                <p>Email: rachana.ajmera@harshpump.com</p>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4 text-white">Quick Links</h4>
+                <nav class="space-y-2">
+                    <a href="/" class="hover:underline">Home</a><br/>
+                    <a href="/about-us" class="hover:underline">About Us</a><br/>
+                    <a href="#" class="hover:underline">Contact Us</a>
+                </nav>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4 text-white">Follow Us</h4>
+                <div class="flex space-x-4">
+                    <a href="https://www.facebook.com/profile.php?id=100064154166722&sk=about" target="_blank" aria-label="Facebook"><img src="/images/Facebook_Logo_Primary.png" alt="Facebook" class="h-6 w-6 hover:scale-110 transition-transform duration-200"></a>
+                    <a href="https://www.linkedin.com/company/harshpumps/about/" target="_blank" aria-label="LinkedIn"><img src="/images/LI-In-Bug.png" alt="LinkedIn" class="h-6 w-6 hover:scale-110 transition-transform duration-200"></a>
+                    <a href="https://www.instagram.com/harshpumps/" target="_blank" aria-label="Instagram"><img src="/images/Instagram_Glyph_Gradient.png" alt="Instagram" class="h-6 w-6 hover:scale-110 transition-transform duration-200"></a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center text-sm mt-8">&copy; 2025 Harsh Pumps. All rights reserved</div>
+    </footer>
+    <script>
+        const sliders=['mmb-slider','hsps-slider','hp-slider']
+        sliders.forEach(className=>{
+            new Swiper(`.${className}`,{
+                loop:true,
+                autoplay:{
+                    delay:2500,
+                    disableOnInteraction:false 
+                },
+                pagination:{
+                    el:'.swiper-pagination',
+                    clickable:true 
+                }
+            })
+        })
+    </script>
+</body>
+</html>

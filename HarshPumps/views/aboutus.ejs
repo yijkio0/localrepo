@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Harsh Pump</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        .fade-up{
+            opacity:0;
+            transform:translateY(30px);
+            transition:all 0.8s ease-in-out;
+        }
+        .fade-up.show{
+            opacity:1;
+            transform:translate(Y);
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+    <header class="bg-white shadow sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-6 flex justify-between items-center gap-10">
+            <img class="h-15 w-auto" alt="Harsh Pumps Logo" src="./images/harsh_pump_logo3.jpg">
+            <nav class="flex space-x-8 hidden md:flex items-center">
+                <a href="/" class="text-gray-700 hover:text-blue-600 font-bold">Home</a>
+                <a href="/about-us" class="text-gray-700 hover:text-blue-600 font-bold">About Us</a>
+                <div class="relative group">
+                    <button class="text-gray-700 hover:text-blue-600 font-bold focus:outline-none">Products</button>
+                    <div class="absolute left-0 mt-2 w-64 bg-white border rounded shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <a href="/products/self-priming" class="block px-4 py-2 hover:bg-blue-50">Self Priming Pumps</a>
+                        <a href="/products/horizontal-submersible" class="block px-4 py-2 hover:bg-blue-50">Horizontal Submersible Pumps</a>
+                        <a href="/products/vertical-submersible" class="block px-4 py-2 hover:bg-blue-50">Vertical Submersible Pumps</a>
+                        <a href="/products/pressure" class="block px-4 py-2 hover:bg-blue-50">Pressure Pump</a>
+                        <a href="/products/centrifugal" class="block px-4 py-2 hover:bg-blue-50">Centrifugal Pump</a>
+                        <a href="products/sewage" class="block px-4 py-2 hover:bg-blue-50">Sewage Pump</a>
+                        <a href="/products/bare" class="block px-4 py-2 hover:bg-blue-50">Bare Pump</a>
+                    </div>
+                </div>
+                <a href="/contact-us" class="text-gray-700 hover:text-blue-600 font-bold">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+    <section class="py-20 bg-blue-50 px-4 md:px-16">
+        <h2 class="text-4xl md:text-5xl font-bold text-center text-blue-900 mb-12 fade-up">Meet Our Founders</h2>
+        <div class="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto fade-up">
+            <div class="text-center">
+                <img src="/images/pravinajmera.png" alt="Founder 1" class="mx-auto w-48 h-48 object-cover rounded-full shadow mb-4">
+                <h3 class="text-xl font-semibold text-blue-700">Mr. Pravin Ajmera</h3>
+                <p class="text-gray-600 text-sm mt-2">The quest for quality through technology imbibed in the genes of founder Pravinbhai Ajmera resulted in flow of products which were high on efficiency and low on energy consumption. This gave Harsh a clear edge in the market place and helped the company reach its present level.</p>
+            </div>
+            <div class="text-center">
+                <img src="/images/jayeshajmera.png" alt="Founder 2" class="mx-auto w-48 h-48 object-cover rounded-full shadow mb-4">
+                <h3 class="text-xl font-semibold text-blue-700">Mr. Jayesh Ajmera</h3>
+                <p class="text-gray-600 text-sm mt-2">Today with reigns of the company in the hands of young and dynamic Jayesh Ajmera, the company is all set to achieve its “being global” ambitions in the coming years. Harsh today focuses on value engineering as the means to achieve its goal. This enables the company to provide the highest quality pumps at most affordable prices making it a clear winner.</p>
+            </div>
+        </div>
+    </section>
+    <section class="py-20 bg-white px-4 md:px-16">
+        <h2 class="text-4xl md:text-5xl font-bold text-center text-blue-900 mb-12 fade-up">Our Production Power</h2>
+        <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto text-center fade-up">
+            <div class="bg-blue-100 p-6 rounded-xl shadow">
+                <h3 class="text-3xl font-bold text-blue-800">1000+</h3>
+                <p class="text-sm text-gray-700 mt-2">Pumps Manufactured Per Day</p>
+            </div>
+            <div class="bg-blue-100 p-6 rounded-xl shadow">
+                <h3 class="text-3xl font-bold text-blue-800">25000+</h3>
+                <p class="text-sm text-gray-700 mt-2">Pumps Manufactured Per Month</p>
+            </div>
+            <div class="bg-blue-100 p-6 rounded-xl shadow">
+                <h3 class="text-3xl font-bold text-blue-800">300000+</h3>
+                <p class="text-sm text-gray-700 mt-2">Pumps Manufactured Per Year</p>
+            </div>
+        </div>
+    </section>
+    <section class="py-20 bg-gray-50 px-4 md:px-16">
+        <h2 class="text-4xl md:text-5xl font-bold text-center text-blue-900 mb-12 fade-up">Inside Our Factory</h2>
+        <div class="grid md:grid-cols-3 gap-6 mx-auto fade-up">
+            <img src="/images/inside1.png" alt="Factory Image 1" class="rounded-lg shadow-md w-full">
+            <img src="/images/inside2.png" alt="Factory Image 2" class="rounded-lg shadow-md w-full">
+            <img src="/images/inside3.jpg" alt="Factory Image 3" class="rounded-lg shadow-md w-full">
+            <img src="/images/inside4.jpg" alt="Factory Image 4" class="rounded-lg shadow-md w-full">
+            <img src="/images/inside5.jpg" alt="Factory Image 5" class="rounded-lg shadow-md w-full">
+            <img src="/images/inside6.jpg" alt="Factory Image 6" class="rounded-lg shadow-md w-full">
+        </div>
+    </section>
+    <footer class="bg-gray-800 text-gray-300 py-12">
+        <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-3 gap-8">
+            <div>
+                <h4 class="font-bold mb-4 text-white">Contact</h4>
+                <p>Harsh Pump<br/>E-141, Sanand GIDC -2, Chharodi, Gujarat 382110</p>
+                <p>Phone: +91-9327009418</p>
+                <p>Email: rachana.ajmera@harshpump.com</p>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4 text-white">Quick Links</h4>
+                <nav class="space-y-2">
+                    <a href="/" class="hover:underline">Home</a><br/>
+                    <a href="/about-us" class="hover:underline">About Us</a><br/>
+                    <a href="#" class="hover:underline">Contact Us</a>
+                </nav>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4 text-white">Follow Us</h4>
+                <div class="flex space-x-4">
+                    <a href="https://www.facebook.com/profile.php?id=100064154166722&sk=about" target="_blank" aria-label="Facebook"><img src="/images/Facebook_Logo_Primary.png" alt="Facebook" class="h-6 w-6 hover:scale-110 transition-transform duration-200"></a>
+                    <a href="https://www.linkedin.com/company/harshpumps/about/" target="_blank" aria-label="LinkedIn"><img src="/images/LI-In-Bug.png" alt="LinkedIn" class="h-6 w-6 hover:scale-110 transition-transform duration-200"></a>
+                    <a href="https://www.instagram.com/harshpumps/" target="_blank" aria-label="Instagram"><img src="/images/Instagram_Glyph_Gradient.png" alt="Instagram" class="h-6 w-6 hover:scale-110 transition-transform duration-200"></a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center text-sm mt-8">&copy; 2025 Harsh Pumps. All rights reserved</div>
+    </footer>
+    <script>
+        const observer=new IntersectionObserver(
+            entries=>{
+                entries.forEach(entry=>{
+                    if(entry.isIntersecting){
+                        entry.target.classList.add('show')
+                    }
+                })
+            },
+            {threshold:0.1}
+        )
+        document.querySelectorAll('.fade-up').forEach(e1=>observer.observe(e1))
+    </script>
+</body>
+</html>

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Harsh Pump</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        .fade-up{
+            opacity:0;
+            transform:translateY(30px);
+            transition:all 0.8s ease-in-out;
+        }
+        .fade-up.show{
+            opacity:1;
+            transform:translate(Y);
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-blue-300 to-white text-gray-800 font-(family-name:Montserrat)">
+    <header class="bg-white shadow sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <img class="h-15 w-auto" alt="Harsh Pumps Logo" src="./images/harsh_pump_logo3.jpg">
+            <nav class="space-x-6 hidden md:flex items-center">
+                <a href="/" class="text-gray-700 hover:text-blue-600 font-bold">Home</a>
+                <a href="/about-us" class="text-gray-700 hover:text-blue-600 font-bold">About Us</a>
+                <div class="relative group">
+                    <button class="text-gray-700 hover:text-blue-600 font-bold focus:outline-none">Products</button>
+                    <div class="absolute left-0 mt-2 w-64 bg-white border rounded shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <a href="/products/self-priming" class="block px-4 py-2 hover:bg-blue-50">Self Priming Pumps</a>
+                        <a href="/products/horizontal-submersible" class="block px-4 py-2 hover:bg-blue-50">Horizontal Submersible Pumps</a>
+                        <a href="/products/vertical-submersible" class="block px-4 py-2 hover:bg-blue-50">Vertical Submersible Pumps</a>
+                        <a href="/products/pressure" class="block px-4 py-2 hover:bg-blue-50">Pressure Pump</a>
+                        <a href="/products/centrifugal" class="block px-4 py-2 hover:bg-blue-50">Centrifugal Pump</a>
+                        <a href="products/sewage" class="block px-4 py-2 hover:bg-blue-50">Sewage Pump</a>
+                        <a href="/products/bare" class="block px-4 py-2 hover:bg-blue-50">Bare Pump</a>
+                    </div>
+                </div>
+                <a href="/contact-us" class="text-gray-700 hover:text-blue-600 font-bold">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+    <section style="background-image:url('https://imgs.search.brave.com/iXv-xflEzUfdRHTjRHybzR3NeYtrxrnU2To24u7sYXU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDIwMzc0/NzEuanBn');" class="w-full h-96 bg-cover bg-center">
+        <div class="w-full h-full bg-black/30 flex items-center justify-center">
+            <h2 class="text-white text-4xl md:text-5xl font-bold">Power Through Purity</h2>
+        </div>
+    </section>
+    <section class="py-20 bg-white px-4 md:px-16">
+        <div class="max-w-6xl-mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold text-center text-blue-800 mb-12 fade-up">Our Vision & Mission</h2>
+            <div class="grid md:grid-cols-2 gap-8 fade-up">
+                <div class="bg-blue-50 p-6 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-semibold mb-2 text-blue-700">Vision</h3>
+                    <ul class="list-disc pl-5 text-gray-700 space-y-1 font-semibold">
+                        <li>Manufacture a complete range of water pumps ensuring the right balance between cost, quality and availability for consumer's needs.</li>
+                        <li>Focus on design to improvise engineering, reduce cost and enhance aesthetic value of product range for the ease of our consumers.</li>
+                    </ul>
+                </div>
+                <div class="bg-blue-50 p-6 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-semibold mb-2 text-blue-700">Mission</h3>
+                    <ul class="list-disc pl-5 text-gray-700 space-y-1 font-semibold">
+                        <li>To invest in state of art technology and blend the same with innovative research to develop products with technological niche.</li>
+                        <li>To diversify and adapt to the current market trends and provide Advance Motor Solutions.</li>
+                        <li>Develop advanced motor solutions redefining efficiency, reliability and sustainability.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-20 bg-gray-50 px-4 md:px-16">
+        <h2 class="text-4xl md:text-5xl font-bold text-center text-blue-800 mb-12 fade-up">Our Pump Range</h2>
+        <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <div class="bg-white rounded-xl shadow hover:shadow-lg transition overflow-hidden fade-up">
+                <img src="/images/selfpriming1.jpg" alt="Self Priming Pump" class="w-full object-contain">
+                <div class="p-4">
+                    <h3>Self Priming Pump</h3>
+                    <p class="text-sm text-gray-600 mb-3">A Self Priming Pump is a type of centrifugal pump designed to automatically remove air from the suction line and pump casing to establish a flow of liquid without the need for manual priming.</p>
+                    <a href="/products/self-priming" class="text-blue-600 text-sm font-medium hover:underline">Learn More →</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl shadow hover:shadow-lg transition overflow-hidden fade-up">
+                <img src="/images/horizontalsubmersible.png" alt="Horizontal Submersible Pump" class="w-full h-48 object-contain">
+                <div class="p-4">
+                    <h3>Horizontal Submersible Pump</h3>
+                    <p class="text-sm text-gray-600 mb-3">A Horizontal Submersible Pump is a type of pump designed to operate while being fully submerged in water.</p>
+                    <a href="/products/horizontal-submersible" class="text-blue-600 text-sm font-medium hover:underline">Learn More →</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl shadow hover:shadow-lg transition overflow-hidden fade-up">
+                <img src="/images/verticalsubmersible.webp" class="w-full h-48 object-contain">
+                <div class="p-4">
+                    <h3>Verticle Submersible Pump</h3>
+                    <p class="text-sm text-gray-600 mb-3">A Vertical Submersible Pump is a type of pump designed to operate while being completely submerged in the liquid it is pumping.</p>
+                    <a href="/products/vertical-submersible" class="text-blue-600 text-sm font-medium hover:underline">Learn More →</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl shadow hover:shadow-lg transition overflow-hidden fade-up">
+                <img src="https://imgs.search.brave.com/cE6Cjt4a5BSkoo1EA0FljnatqR_QEEtNuxIwDSYS-LU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NjFZK0NqZnlFaEwu/anBn" alt="Pressure Pump" class="w-full h-48 object-contain">
+                <div class="p-4">
+                    <h3>Pressure Pump</h3>
+                    <p class="text-sm text-gray-600 mb-3">Pressure Pump is a device designed to increase the pressure of water in a plumbing system, ensuring adequate water flow and pressure for household or commercial use.</p>
+                    <a href="#" class="text-blue-600 text-sm font-medium hover:underline">Learn More →</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl shadow hover:shadow-lg transition overflow-hidden fade-up">
+                <img src="/images/centrifugal.jpg" alt="Centrifugal Pump" class="w-full h-48 object-contain">
+                <div class="p-4">
+                    <h3>Centrifugal Pump</h3>
+                    <p class="text-sm text-gray-600 mb-3">Centrifugal Pump is a machine that uses rotation to impart velocity to a liquid, which is then converted into flow.</p>
+                    <a href="/products/centrifugal" class="text-blue-600 text-sm font-medium hover:underline">Learn More →</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl shadow hover:shadow-lg transition overflow-hidden fade-up">
+                <img src="/images/pressure.png" alt="Sewage Pump" class="w-full h-48 object-contain">
+                <div class="p-4">
+                    <h3>Sewage Pump</h3>
+                    <p class="text-sm text-gray-600 mb-3">Sewage Pump is a device designed to transport sewage liquids and solids from one location to another, typically used in situations where gravity cannot facilitate the movement of waste.</p>
+                    <a href="#" class="text-blue-600 text-sm font-medium hover:underline">Learn More →</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl shadow hover:shadow-lg transition overflow-hidden fade-up">
+                <img src="/images/bare.png" alt="Bare Pump" class="w-full h-48 object-contain">
+                <div class="p-4">
+                    <h3>Bare Pump</h3>
+                    <p class="text-sm text-gray-600 mb-3">Bare Pump refers to a pump that excludes mechanical equipment, driver, and controls.</p>
+                    <a href="#" class="text-blue-600 text-sm font-medium hover:underline">Learn More →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-20 bg-white px-4 md:px-16">
+        <h2 class="text-4xl md:text-5xl font-bold text-center text-blue-800 mb-20 fade-up">Our Manufacturing Strengths</h2>
+        <div class="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto">
+            <div class="flex gap-6 items-start fade-up">
+                <img src="https://imgs.search.brave.com/HLTL29W6NxDD5hmmRZNG6dVltyJiqrTBn2RBfGyyu78/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/bGluZW1lZGlhLmNv/bS9pbWcvcy9pbmR1/c3RyaWFsLWVxdWlw/bWVudC1iYWxhbmNp/bmctbWFjaGluZS1W/VE0tR3JvdXAtTWFj/Y2hpbmEtcGVyLWxl/cXVpbGlicmF0dXJh/LWRlbGxhbGJlcm8t/YS1nb21pdGktLS0x/NjkyMTcxODAzNzUw/NzczMTQ1X2NvbW1v/bi0tMjMwODE2MTA0/MjQ2NDE2MjA1MDAu/anBn" alt="Balancing" class="w-28 h-28 object-cover rounded shadow">
+                <div>
+                    <h3 class="text-lg font-semibold text-blue-700 mb-1">Balancing</h3>
+                    <ul class="list-disc pl-5 text-sm text-gray-600 sapce-y-1">
+                        <li>Each and every rotor and impeller is balanced using balancing machine with unbalance kept in micron range.</li>
+                        <li>Due to this, we achieve less vibrations in the pump and achieve better efficiency!</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex gap-6 items-start fade-up">
+                <img src="https://imgs.search.brave.com/EV3iB9DfCCxzp47p1zMzM92SCrHS4RAUQeTCfPX0PCg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTMy/MDkzNTMxMS9waG90/by9kZWJ1cnJpbmct/dG9vbC1mb3ItbWV0/YWwtd29vZC1hbHVt/aW51bS1jb3BwZXIt/YW5kLXBsYXN0aWMt/dGhlLXByb2Nlc3Mt/b2YtZGVidXJyaW5n/LW1ldGFsLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1zRjEx/aDQ3ZTdCSENveWxN/cmVzU0duNjl6RmFL/dG4tUjlUTUhJOGpX/V1dZPQ" alt="Deburring" class="w-28 h-28 object-cover rounded shadow">
+                <div>
+                    <h3 class="text-lg font-semibold text-blue-700 mb-1">Deburring</h3>
+                    <ul class="list-disc pl-5 text-sm text-gray-600 sapce-y-1">
+                        <li>For removing burrs and sharp edges from non-ferrous impellers, deburring process is done.</li>
+                        <li>Due to this we get better finishing of impeller, less wear and tear, improved life of impeller and better performance!</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex gap-6 items-start fade-up">
+                <img src="https://imgs.search.brave.com/7p_q8IpSxb0KlnC-ZKKOAD8R8NI3RCJalNueSeVZeo0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzEyLzI5LzQ5Lzk5/LzM2MF9GXzEyMjk0/OTk5OTJfUmhkb0Q4/SENqRmdWVVVTdlJS/SzJISENTT29hWGdk/R20uanBn" alt="Grinding" class="w-28 h-28 object-cover rounded shadow">
+                <div>
+                    <h3 class="text-lg font-semibold text-blue-700 mb-1">Grinding</h3>
+                    <ul class="list-disc pl-5 text-sm text-gray-600 sapce-y-1">
+                        <li>Grinding of rotor shaft is done after final machining of the rotor.</li>
+                        <li>Due to this, runout of rotor shaft is minimized which inturn helps in reducing wear and tear of shaft-bush assembly!</li>
+                        <li>It also increases the surface finish of the rotor shaft.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex gap-6 items-start fade-up">
+                <img src="https://imgs.search.brave.com/E2in_dLeFsv8UGR7oX44BASO0xgiip9wzWhCm_chU50/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wb2x5/bWFrZXIuY29tL3dw/LWNvbnRlbnQvdXBs/b2Fkcy9JbnZlc3Rt/ZW50LUNhc3Rpbmct/Mi5qcGc" alt="Investment Casting" class="w-28 h-28 object-cover rounded shadow">
+                <div>
+                    <h3 class="text-lg font-semibold text-blue-700 mb-1">Investment Casting</h3>
+                    <ul class="list-disc pl-5 text-sm text-gray-600 sapce-y-1">
+                        <li>Investment casting is used in self primming pump casing.</li>
+                        <li>Due to this, we recieve better surface finish, durability and most importantly better discharge and head!</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex gap-6 items-start fade-up">
+                <img src="https://imgs.search.brave.com/-HaeOmiN1xdVkDt3jOaiRD0MCM403indUBuE8S_bFvE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtbmEuc3NsLWlt/YWdlcy1hbWF6b24u/Y29tL2ltYWdlcy9J/LzUxeUR5MzhKWVlM/LmpwZw" alt="Shell Core" class="w-28 h-28 object-cover rounded shadow">
+                <div>
+                    <h3 class="text-lg font-semibold text-blue-700 mb-1">Shell Core</h3>
+                    <ul class="list-disc pl-5 text-sm text-gray-600 sapce-y-1">
+                        <li>We utilize shell core to make brass impellers which gives much better finishing than core box-pattern type impellers.</li>
+                        <li>Due to this, we achieve better finish of impeller, improved discharge and head of pump, along with increased life of impeller due to reduction in wear and tear!</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex gap-6 items-start fade-up">
+                <img src="https://imgs.search.brave.com/8IaqjzL2ria0KJhGlzg0QoV9OYE_xDgn_yJVgtQwD00/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9jbmMtbWlsbGlu/Zy1tYWNoaW5lLWN1/dHRpbmctc2hvZS1p/bmplY3Rpb24tbW9s/ZC1wYXJ0LWJ5LXNv/bGlkLWJhbGwtZW5k/LW1pbGwtdG9vbHNo/b2UtbW9sZC1tYW51/ZmFjdHVyaW5nLXBy/b2Nlc3NfMTE1Njk3/MC0xMDcuanBnP3Nl/bXQ9YWlzX2h5YnJp/ZCZ3PTc0MA" alt="CNC Machine" class="w-28 h-28 object-cover rounded shadow">
+                <div>
+                    <h3 class="text-lg font-semibold text-blue-700 mb-1">CNC Machine</h3>
+                    <ul class="list-disc pl-5 text-sm text-gray-600 sapce-y-1">
+                        <li>Components like impeller and rotor shaft, which require precision machining is done with CNC machine.</li>
+                        <li>Due to this, we achieve accurate dimensions of the component which intern helps increasing the efficiency as well as life of the product!</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex gap-6 items-start fade-up">
+                <img src="https://imgs.search.brave.com/gcxlM_xZcEV-senvd9ocPqFb9tCmD8CqJ2wvX0Xfsio/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4x/MS5iaWdjb21tZXJj/ZS5jb20vcy1lNzdl/NC9pbWFnZXMvc3Rl/bmNpbC8zMDB4MzAw/L3Byb2R1Y3RzLzc1/MDMvNjMxMzQvQnVj/a2xlZ3V5X0xlYXRo/ZXJfQnVybmlzaGlu/Z19NYWNoaW5lX18y/ODU3Ni4xNzE1NjA3/MzE1LmpwZz9jPTI" alt="Burnishing" class="w-28 h-28 object-cover rounded shadow">
+                <div>
+                    <h3 class="text-lg font-semibold text-blue-700 mb-1">Burnishing</h3>
+                    <ul class="list-disc pl-5 text-sm text-gray-600 sapce-y-1">
+                        <li>After rotor grinding is done, burnishing process is done on rotor shaft.</li>
+                        <li>Due to this, rotor shaft bush surface becomes super finished which inturn reduces friction between shaft and bush increasing the life of both components!</li>
+                        <li>It also helps to move the pump freely.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex gap-6 items-start fade-up">
+                <img src="https://imgs.search.brave.com/aEI4tq-f5OgGpUuNuS21EfjLxGGlv6FO7GOfp96UIWw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAxNy8w/My8wMS8xNy81MS9j/cnVjaWJsZS0yMTA5/MjAyXzY0MC5qcGc" alt="In house Foundry" class="w-28 h-28 object-cover rounded shadow">
+                <div>
+                    <h3 class="text-lg font-semibold text-blue-700 mb-1">In house Foundry</h3>
+                    <ul class="list-disc pl-5 text-sm text-gray-600 sapce-y-1">
+                        <li>In house Foundry for non ferrous metals like HTB1, LTB4 & GM.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-24 px-4 md:px-16 bg-gray-50">
+        <h2 class="text-5xl font-bold text-center text-blue-800 mb-20 fade-up">Why Choose Harsh Pumps?</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="bg-gray-50 p-6 rounded-2xl shadow-md text-center fade-up">
+            <div class="flex justify-center mb-4">
+              <svg class="h-12 w-12 text-red-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2C10 5 7 6 7 10c0 2.5 2 4 2 6s-2 4-2 4h10s-2-2-2-4 2-3.5 2-6c0-4-3-5-5-8z" /></svg>
+            </div>
+            <h3 class="text-xl font-semibold mb-2 text-gray-800">High Performance</h3>
+            <p class="text-gray-600 text-sm">Engineered to deliver consistent power and durability in every drop.</p>
+          </div>
+          <div class="bg-gray-50 p-6 rounded-2xl shadow-md text-center fade-up">
+            <div class="flex justify-center mb-4">
+              <svg class="h-12 w-12 text-blue-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10c0-4.418-3.582-8-8-8S4 7.582 4 12c0 6 8 10 8 10z" /></svg>
+            </div>
+            <h3 class="text-xl font-semibold mb-2 text-gray-800">Water Efficiency</h3>
+            <p class="text-gray-600 text-sm">Maximum output with minimal resource use, saving water and energy.</p>
+          </div>
+          <div class="bg-gray-50 p-6 rounded-2xl shadow-md text-center fade-up">
+            <div class="flex justify-center mb-4">
+              <svg class="h-12 w-12 text-green-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 12h-4l3-8-8 3V2h-2v5L5 4l3 8H2v2h6l-3 8 8-3v5h2v-5l8 3-3-8h4z" /></svg>
+            </div>
+            <h3 class="text-xl font-semibold mb-2 text-gray-800">Low Maintenance</h3>
+            <p class="text-gray-600 text-sm">Built to last with fewer service interruptions and lower operational costs.</p>
+          </div>
+        </div>
+    </section>
+    <section class="py-20 bg-blue-100 text-center">
+        <h3 class="text-4xl font-bold text-blue-900 mb-16 fade-up">Ready to Power Up?</h3>
+        <button class="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-2xl text-white text-lg">Contact Us Now</button>
+    </section>
+    <footer class="bg-gray-800 text-gray-300 py-12">
+        <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-3 gap-8">
+            <div>
+                <h4 class="font-bold mb-4 text-white">Contact</h4>
+                <p>Harsh Pump<br/>E-141, Sanand GIDC -2, Chharodi, Gujarat 382110</p>
+                <p>Phone: +91-9327009418</p>
+                <p>Email: rachana.ajmera@harshpump.com</p>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4 text-white">Quick Links</h4>
+                <nav class="space-y-2">
+                    <a href="/" class="hover:underline">Home</a><br/>
+                    <a href="/about-us" class="hover:underline">About Us</a><br/>
+                    <a href="#" class="hover:underline">Contact Us</a>
+                </nav>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4 text-white">Follow Us</h4>
+                <div class="flex space-x-4">
+                    <a href="https://www.facebook.com/profile.php?id=100064154166722&sk=about" target="_blank" aria-label="Facebook"><img src="/images/Facebook_Logo_Primary.png" alt="Facebook" class="h-6 w-6 hover:scale-110 transition-transform duration-200"></a>
+                    <a href="https://www.linkedin.com/company/harshpumps/about/" target="_blank" aria-label="LinkedIn"><img src="/images/LI-In-Bug.png" alt="LinkedIn" class="h-6 w-6 hover:scale-110 transition-transform duration-200"></a>
+                    <a href="https://www.instagram.com/harshpumps/" target="_blank" aria-label="Instagram"><img src="/images/Instagram_Glyph_Gradient.png" alt="Instagram" class="h-6 w-6 hover:scale-110 transition-transform duration-200"></a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center text-sm mt-8">&copy; 2025 Harsh Pumps. All rights reserved</div>
+    </footer>
+    <script>
+        const observer=new IntersectionObserver(
+            entries=>{
+                entries.forEach(entry=>{
+                    if(entry.isIntersecting){
+                        entry.target.classList.add('show')
+                    }
+                })
+            },
+            {threshold:0.1}
+        )
+        document.querySelectorAll('.fade-up').forEach(e1=>observer.observe(e1))
+    </script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Harsh Pumps</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-blue-50 to-white text-gray-800">  
+    <header class="bg-white shadow sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <img src="./images/harsh_pump_logo3.jpg" class="h-14 w-auto" alt="Harsh Pumps Logo">
+            <nav class="space-x-6 hidden md:flex items-center">
+                <a href="/" class="text-gray-700 hover:text-blue-600 font-bold">Home</a>
+                <a href="/about-us" class="text-gray-700 hover:text-blue-600 font-bold">About Us</a>
+                <div class="relative group">
+                    <button class="text-gray-700 hover:text-blue-600 font-bold focus:outline-none">Products</button>
+                    <div class="absolute left-0 mt-2 w-64 bg-white border rounded shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <a href="/products/self-priming" class="block px-4 py-2 hover:bg-blue-50">Self Priming Pumps</a>
+                        <a href="/products/horizontal-submersible" class="block px-4 py-2 hover:bg-blue-50">Horizontal Submersible Pumps</a>
+                        <a href="/products/vertical-submersible" class="block px-4 py-2 hover:bg-blue-50">Vertical Submersible Pumps</a>
+                        <a href="/products/pressure" class="block px-4 py-2 hover:bg-blue-50">Pressure Pump</a>
+                        <a href="/products/centrifugal" class="block px-4 py-2 hover:bg-blue-50">Centrifugal Pump</a>
+                        <a href="products/sewage" class="block px-4 py-2 hover:bg-blue-50">Sewage Pump</a>
+                        <a href="/products/bare" class="block px-4 py-2 hover:bg-blue-50">Bare Pump</a>
+                    </div>
+                </div>
+                <a href="/contact-us" class="text-gray-700 hover:text-blue-600 font-bold">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+    <main class="py-20 px-6 md:px-16">
+        <h1 class="text-4xl md:text-5xl font-bold text-center text-blue-900 mb-12">Contact Us</h1>
+        <%if(typeof success===true){%>
+            <div class="mb-4 p-3 bg-green-100 text-green-800 rounded">✅ Message sent successfully!</div>
+        <%}else if(success===false){%>
+            <div class="mb-4 p-3 bg-red-100 text-red-800 rounded">❌ Failed to send message. Please try again later.</div>
+        <%}%>
+        <div class="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-md">
+            <form action="/contact-us" method="POST" class="space-y-6">
+                <div>
+                    <label class="block mb-2 font-semibold text-gray-700">Name</label>
+                    <input type="text" name="name" required class="w-full border border-gray-300 rounded px-4 py-2 focus:ring-2 focus:ring-blue-500 outline-none"/>
+                </div>
+                <div>
+                    <label class="block mb-2 font-semibold text-gray-700">Email</label>
+                    <input type="email" name="email" required class="w-full border border-gray-300 rounded px-4 py-2 focus:ring-2 focus:ring-blue-500 outline-none"/>
+                </div>
+                <div>
+                    <label class="block mb-2 font-semibold text-gray-700">Phone</label>
+                    <input type="tel" name="phone" required class="w-full border border-gray-300 rounded px-4 py-2 focus:ring-2 focus:ring-blue-500 outline-none"/>
+                </div>
+                <div>
+                    <label class="block mb-2 font-semibold text-gray-700">Message</label>
+                    <textarea rows="5" name="message" required class="w-full border border-gray-300 rounded px-4 py-2 focus:ring-2 focus:ring-blue-500 outline-none"></textarea>
+                </div>
+                <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-md transition duration-200">Send Message</button>
+            </form>
+        </div>
+        <div class="max-w-4xl mx-auto mt-16 text-center">
+            <h2 class="text-2xl font-bold text-blue-800 mb-4">Reach Us At</h2>
+            <p class="text-gray-700">Harsh Pump<br/>E-141, Sanand GIDC-2, Chharodi, Gujarat 382110</p>
+            <p class="text-gray-700 mt-2">Phone: <a href="tel:+919327009418" class="text-blue-600 underline">+91-9327009418</a></p>
+            <p class="text-gray-700">Email: <a href="mailto:sales@harshpump.com" class="text-blue-600 underline">sales@harshpump.com</a></p>
+        </div>
+    </main>
+    <footer class="bg-gray-800 text-gray-300 py-12">
+        <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-3 gap-8">
+            <div>
+                <h4 class="font-bold mb-4 text-white">Contact</h4>
+                <p>Harsh Pump<br/>E-141, Sanand GIDC -2, Chharodi, Gujarat 382110</p>
+                <p>Phone: +91-9327009418</p>
+                <p>Email: sales@harshpump.com</p>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4 text-white">Quick Links</h4>
+                <nav class="space-y-2">
+                    <a href="/" class="hover:underline">Home</a><br/>
+                    <a href="/about-us" class="hover:underline">About Us</a><br/>
+                    <a href="/contact-us" class="hover:underline">Contact Us</a>
+                </nav>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4 text-white">Follow Us</h4>
+                <div class="flex space-x-4">
+                    <a href="https://www.facebook.com/profile.php?id=100064154166722&sk=about" target="_blank" aria-label="Facebook"><img src="/images/Facebook_Logo_Primary.png" alt="Facebook" class="h-6 w-6 hover:scale-110 transition-transform duration-200"></a>
+                    <a href="https://www.linkedin.com/company/harshpumps/about/" target="_blank" aria-label="LinkedIn"><img src="/images/LI-In-Bug.png" alt="LinkedIn" class="h-6 w-6 hover:scale-110 transition-transform duration-200"></a>
+                    <a href="https://www.instagram.com/harshpumps/" target="_blank" aria-label="Instagram"><img src="/images/Instagram_Glyph_Gradient.png" alt="Instagram" class="h-6 w-6 hover:scale-110 transition-transform duration-200"></a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center text-sm mt-8">&copy; 2025 Harsh Pumps. All rights reserved</div>
+    </footer>
+</body>
+</html>

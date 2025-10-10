@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self Priming Series - Harsh Pumps</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <style>
+        .series-flex{
+            display:flex;
+            flex-wrap:wrap;
+            justify-content:center;
+            gap:6rem;
+        }
+        .series-group{
+            flex:1 1 350px;
+            max-width:400px;    
+        }
+        .series-container{
+            display:flex;
+            flex-wrap:wrap;
+            gap:1.5rem;
+            justify-content:center;
+        }
+        .series-card{
+            width:100%;
+            max-width:350px;
+            flex:1 1 300px;
+        }
+    </style>
+    <script>
+        function toggleDetails(id){
+            const el=document.getElementById(id)
+            el.classList.toggle('hidden')
+        }
+    </script>
+</head>
+<body class="bg-gradient-to-br from-blue-50 to-white text-gray-800">
+    <header class="bg-white shadow sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <img src="/images/harsh_pump_logo3.jpg" alt="Logo" class="h-15 w-auto">
+            <nav class="space-x-6 hidden md:flex items-center">
+                <a href="/" class="text-gray-700 hover:text-blue-600 font-bold">Home</a>
+                <a href="/about-us" class="text-gray-700 hover:text-blue-600 font-bold">About Us</a>
+                <div class="relative group">
+                    <button class="text-gray-700 hover:text-blue-600 font-bold focus:outline-none">Products</button>
+                    <div class="absolute left-0 mt-2 w-64 bg-white border rounded shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <a href="/products/self-priming" class="block px-4 py-2 hover:bg-blue-50">Self Priming Pumps</a>
+                        <a href="/products/horizontal-submersible" class="block px-4 py-2 hover:bg-blue-50">Horizontal Submersible Pumps</a>
+                        <a href="/products/vertical-submersible" class="block px-4 py-2 hover:bg-blue-50">Vertical Submersible Pumps</a>
+                        <a href="/products/pressure" class="block px-4 py-2 hover:bg-blue-50">Pressure Pump</a>
+                        <a href="/products/centrifugal" class="block px-4 py-2 hover:bg-blue-50">Centrifugal Pump</a>
+                        <a href="products/sewage" class="block px-4 py-2 hover:bg-blue-50">Sewage Pump</a>
+                        <a href="/products/bare" class="block px-4 py-2 hover:bg-blue-50">Bare Pump</a>
+                    </div>
+                </div>
+                <a href="/contact-us" class="text-gray-700 hover:text-blue-600 font-bold">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+    <main class="py-20 px-6 md:px-16">
+        <h1 class="text-4xl md:text-5xl font-bold text-center text-blue-900 mb-18">Self Priming Series</h1>
+        <section class="space-y-16">
+            <div class="series-flex">
+                <div class="series-group">
+                    <h2 class="text-2xl font-bold text-blue-800 mb-4">Mini Monobloc (MMB)</h2>
+                    <div class="series-container">
+                        <div class="bg-gray-50 p-4 rounded shadow series-card">
+                            <div class="swiper mmb-slider w-full h-96 rounded overflow-hidden">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="/images/selfpriming_Diamond1.0.jpg" alt="MMB Diamond" class="w-full h-96 object-contain rounded"></div>
+                                    <div class="swiper-slide"><img src="/images/selfpriming_Premium1.0.jpg" alt="MMB Premium" class="w-full h-96 object-contain rounded"></div>
+                                </div>  
+                                <div class="swiper-pagination"></div>
+                            </div>
+                            <div class="swiper mmb-slider mt-4">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><h3 class="text-lg font-semibold text-blue-700">Diamond 1.0</h3></div>
+                                    <div class="swiper-slide"><h3 class="text-lg font-semibold text-blue-700">Premium 1.0</h3></div>
+                                </div>
+                            </div>
+                            <ul class="mt-6 border border-dashed border-blue-300 p-4 rounded bg-blue-50 text-sm space-y-2">
+                                <li class="flex items-start gap-2">
+                                    <span class="text-blue-600 font-bold">•</span>
+                                    <span><strong>Flow Range:</strong> upto 2500 LPH</span>
+                                </li>
+                                <li class="flex items-start gap-2">
+                                    <span class="text-blue-600 font-bold">•</span>
+                                    <span><strong>Head Range:</strong> upto 30 meter</span>
+                                </li>
+                                <li class="flex items-start gap-2">
+                                    <span class="text-blue-600 font-bold">•</span>
+                                    <span><strong>Rating:</strong> 0.5HP to 1.0HP</span>
+                                </li>
+                                <li class="flex items-start gap-2">
+                                    <span class="text-blue-600 font-bold">•</span>
+                                    <span><strong>Rated Speed:</strong> 2800 RPM</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="series-group">
+                        <h2 class="text-2xl font-bold text-blue-800 mb-4">Self Priming Monobloc(HSPS/HPS)</h2>
+                        <div class="series-container">
+                            <div class="bg-gray-50 p-4 rounded shadow series-card">
+                                <div class="swiper hp-slider w-full h-96 rounded overflow-hidden">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><img src="/images/selfpriming_HPS70.jpg" alt="HPS70" class="w-full h-96 object-contain rounded"></div>
+                                        <div class="swiper-slide"><img src="/images/selfpriming_HPS120.jpg" alt="HPS120" class="w-full h-96 object-contain rounded"></div>
+                                        <div class="swiper-slide"><img src="/images/selfpriming_HPS140.jpg" alt="HPS140" class="w-full h-96 object-contain rounded"></div>
+                                        <div class="swiper-slide"><img src="/images/selfpriming_HPSPAL80.jpg" alt="HPSPAL80" class="w-full h-96 object-contain rounded"></div>
+                                        <div class="swiper-slide"><img src="/images/selfpriming_HPSPAL90.jpg" alt="HPSPAL90" class="w-full h-96 object-contain rounded"></div>
+                                        <div class="swiper-slide"><img src="/images/selfpriming_VFlow0.5.jpg" alt="VFlow0.5" class="w-full h-96 object-contain rounded"></div>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                                <div class="swiper hp-slider mt-4">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><h3 class="text-lg font-semibold text-blue-700">HPS 70</h3></div>
+                                        <div class="swiper-slide"><h3 class="text-lg font-semibold text-blue-700">HPS 120</h3></div>
+                                        <div class="swiper-slide"><h3 class="text-lg font-semibold text-blue-700">HPS 140</h3></div>
+                                        <div class="swiper-slide"><h3 class="text-lg font-semibold text-blue-700">HPSP AL80</h3></div>
+                                        <div class="swiper-slide"><h3 class="text-lg font-semibold text-blue-700">HPSP AL90</h3></div>
+                                        <div class="swiper-slide"><h3 class="text-lg font-semibold text-blue-700">V Flow 0.5</h3></div>
+                                    </div>
+                                </div>
+                                <ul class="mt-6 border border-dashed border-blue-300 p-4 rounded bg-blue-50 text-sm space-y-2">
+                                    <li class="flex items-start gap-2">
+                                        <span class="text-blue-600 font-bold">•</span>
+                                        <span><strong>Flow Range:</strong> upto 4000 LPH</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <span class="text-blue-600 font-bold">•</span>
+                                        <span><strong>Head Range:</strong> upto 45 meter</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <span class="text-blue-600 font-bold">•</span>
+                                        <span><strong>Rating:</strong> 0.5HP to 1.5HP</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <span class="text-blue-600 font-bold">•</span>
+                                        <span><strong>Rated Speed:</strong> 2800, 1440 RPM</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="series-group">
+                        <h2 class="text-2xl font-bold text-blue-800 mb-4">Slow Speed Self Priming (HP)</h2>
+                        <div class="series-container">
+                            <div class="bg-gray-50 p-4 rounded shadow series-card">
+                                <div class="swiper hp-slider w-full h-96 rounded overflow-hidden">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><img src="/images/selfpriming_HP3.jpg" alt="HP3" class="w-full h-96 object-contain rounded"></div>
+                                        <div class="swiper-slide"><img src="/images/selfpriming_HP4.jpg" alt="HP4" class="w-full h-96 object-contain rounded"></div>
+                                        <div class="swiper-slide"><img src="/images/selfpriming_HSM1.jpg" alt="HSM1" class="w-full h-96 object-contain rounded"></div>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                                <div class="swiper hp-slider mt-4">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><h3 class="text-lg font-semibold text-blue-700">HP 2|3</h3></div>
+                                        <div class="swiper-slide"><h3 class="text-lg font-semibold text-blue-700">HP 4</h3></div>
+                                        <div class="swiper-slide"><h3 class="text-lg font-semibold text-blue-700">HSM 1|2</h3></div>
+                                    </div>
+                                </div>
+                                <ul class="mt-6 border border-dashed border-blue-300 p-4 rounded bg-blue-50 text-sm space-y-2">
+                                    <li class="flex items-start gap-2">
+                                        <span class="text-blue-600 font-bold">•</span>
+                                        <span><strong>Flow Range:</strong> upto 3600 LPH</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <span class="text-blue-600 font-bold">•</span>
+                                        <span><strong>Head Range:</strong> upto 44 meter</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <span class="text-blue-600 font-bold">•</span>
+                                        <span><strong>Rating:</strong> 1.0HP to 1.5HP</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <span class="text-blue-600 font-bold">•</span>
+                                        <span><strong>Rated Speed:</strong> 1440 RPM</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="max-w-6xl mx-auto mt-24 mb-16 px-4">
+            <img src="/images/selfpriming_details.png" alt="" class="w-full max-h-[600px] object-contain rounded-lg shadow-md border border-gray-200"/>
+        </div>
+        <div id="series-features" class="max-w-4xl mx-auto mt-6 bg-white border border-gray-200 rounded-lg shadow-md p-6">
+            <h3 class="text-2xl font-bold text-blue-800 mb-8 text-center">Key Features</h3>
+            <div class="mb-8">
+                <h4 class="text-xl font-semibold text-blue-700 mb-3">Mini Monobloc - Diamond/Platinum:</h4>
+                <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                    <li>Robust construction to ensure minimum noise & vibration</li>
+                    <li>Vaccuum impregnated motor windings improving insulation & reliability</li>
+                    <li>Inbuilt thermal overload protector safeguarding pumps from overheating</li>
+                    <li>Aluminium extruded body ensuring light weight, good thermal conductivity and corrosion resistance</li>
+                    <li>Superior insulating materials used, making pump withstand high temperature rises</li>
+                    <li>Easy installation & Economical</li>
+                </ul>
+            </div>
+            <div class="mb-8">
+                <h4 class="text-xl font-semibold text-blue-700 mb-3">Self Priming Monobloc (HSPS/HPS):</h4>
+                <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                    <li>Robust construction to ensure minimum noise & vibration</li>
+                    <li>Vaccuum impregnated motor windings improving insulation & reliability</li>
+                    <li>Inbuilt thermal overload protector safeguarding pumps from overheating</li>
+                    <li>Superior insulating materials used, making pump withstand high temperature rises</li>
+                    <li>Easy installation & Economical</li>
+                </ul>
+            </div>
+        </div>
+        <section class="mt-36">
+            <h2 class="text-4xl font-bold text-center text-blue-900 mb-16">Applications</h2>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-x-10 gap-y-12 max-w-7xl mx-auto px-6">
+                <div class="flex flex-col items-center">
+                    <img src="/images/application_lawn.jpg" alt="Gardening" class="w-36 h-36 object-contain rounded-full shadow-lg">
+                    <p class="text-base text-gray-700 mt-4 text-center font-medium">Lawn Sprinklers & Gardening Purpose</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="/images/application_residential.jpg" alt="Residential" class="w-36 h-36 object-contain rounded-full shadow-lg">
+                    <p class="text-base text-gray-700 mt-4 text-center font-medium">Residential & Domestic Purposes</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="/images/application_tank.jpg" alt="Tank" class="w-36 h-36 object-contain rounded-full shadow-lg">
+                    <p class="text-base text-gray-700 mt-4 text-center font-medium">Fill Overhead Tank</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="/images/application_commercial.jpg" alt="Commercial" class="w-36 h-36 object-contain rounded-full shadow-lg">
+                    <p class="text-base text-gray-700 mt-4 text-center font-medium">Commercial Spaces & Shopes</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="/images/application_fountain.jpg" alt="Fountain" class="w-36 h-36 object-contain rounded-full shadow-lg">
+                    <p class="text-base text-gray-700 mt-4 text-center font-medium">Decorative Fountains</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="/images/application_solar.jpg" alt="Solar" class="w-36 h-36 object-contain rounded-full shadow-lg">
+                    <p class="text-base text-gray-700 mt-4 text-center font-medium">Solar Panel Cleaning</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-gray-800 text-gray-300 py-12">
+        <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-3 gap-8">
+            <div>
+                <h4 class="font-bold mb-4 text-white">Contact</h4>
+                <p>Harsh Pump<br/>E-141, Sanand GIDC -2, Chharodi, Gujarat 382110</p>
+                <p>Phone: +91-9327009418</p>
+                <p>Email: rachana.ajmera@harshpump.com</p>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4 text-white">Quick Links</h4>
+                <nav class="space-y-2">
+                    <a href="/" class="hover:underline">Home</a><br/>
+                    <a href="/about-us" class="hover:underline">About Us</a><br/>
+                    <a href="#" class="hover:underline">Contact Us</a>
+                </nav>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4 text-white">Follow Us</h4>
+                <div class="flex space-x-4">
+                    <a href="https://www.facebook.com/profile.php?id=100064154166722&sk=about" target="_blank" aria-label="Facebook"><img src="/images/Facebook_Logo_Primary.png" alt="Facebook" class="h-6 w-6 hover:scale-110 transition-transform duration-200"></a>
+                    <a href="https://www.linkedin.com/company/harshpumps/about/" target="_blank" aria-label="LinkedIn"><img src="/images/LI-In-Bug.png" alt="LinkedIn" class="h-6 w-6 hover:scale-110 transition-transform duration-200"></a>
+                    <a href="https://www.instagram.com/harshpumps/" target="_blank" aria-label="Instagram"><img src="/images/Instagram_Glyph_Gradient.png" alt="Instagram" class="h-6 w-6 hover:scale-110 transition-transform duration-200"></a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center text-sm mt-8">&copy; 2025 Harsh Pumps. All rights reserved</div>
+    </footer>
+    <script>
+        const sliders=['mmb-slider','hsps-slider','hp-slider']
+        sliders.forEach(className=>{
+            new Swiper(`.${className}`,{
+                loop:true,
+                autoplay:{
+                    delay:2500,
+                    disableOnInteraction:false 
+                },
+                pagination:{
+                    el:'.swiper-pagination',
+                    clickable:true 
+                }
+            })
+        })
+    </script>
+</body>
+</html>
